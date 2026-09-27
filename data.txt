@@ -1,0 +1,156 @@
+--- Generating Encryption Keys ---
+PHE keys generated.
+SHE context generated.
+FHE context generated.
+All temporary keys are ready.
+HOMOMORPHIC ENCRYPTION
+PHE
+1. PHE Encryption
+2. PHE Decryption
+SHE
+3. SHE Encryption
+4. SHE Decryption
+FHE
+5. FHE Encryption
+6. FHE Decryption
+Other
+7. Run All Three
+8. Exit
+
+Enter your choice: 7
+
+============================================================
+RUNNING ALL THREE ENCRYPTION TYPES
+============================================================
+
+========== PHE ==========
+original_files/dataP.txt not found.
+Using test data: [10, 20, 30, 40]
+E(10) created.
+E(20) created.
+E(30) created.
+E(40) created.
+
+PHE Encryption Time: 1.065229 seconds
+Encrypted data saved to encrypted_files/phe_encrypted.txt
+Encrypted File Size: 7403 bytes
+
+PHE Addition Result: 30
+Expected Result: 30
+
+========== SHE ==========
+original_files/dataS.txt not found.
+Using test data: [2, 3, 4, 5]
+E(2) created.
+E(3) created.
+E(4) created.
+E(5) created.
+
+SHE Encryption Time: 0.022229 seconds
+Encrypted data saved to encrypted_files/she_encrypted.txt
+Encrypted File Size: 708604 bytes
+
+SHE Multiplication Result: 6
+Expected Result: 6
+
+========== FHE ==========
+original_files/dataF.txt not found.
+Using test data: [2.0, 3.0, 4.0, 5.0]
+E(2.0) created.
+E(3.0) created.
+E(4.0) created.
+E(5.0) created.
+
+FHE Encryption Time: 0.024722 seconds
+Ciphertext File Size: 2650760 bytes
+Encrypted data saved to encrypted_files/fhe_encrypted.txt
+
+FHE Result: 20.00000267745297
+Expected Result: 20.0
+
+============================================================
+ALL THREE COMPLETED
+============================================================
+
+Press Enter to continue...
+HOMOMORPHIC ENCRYPTION
+PHE
+1. PHE Encryption
+2. PHE Decryption
+SHE
+3. SHE Encryption
+4. SHE Decryption
+FHE
+5. FHE Encryption
+6. FHE Decryption
+Other
+7. Run All Three
+8. Exit
+
+Enter your choice: 2
+
+============================================================
+PHE DECRYPTION
+============================================================
+
+Ciphertext File Size: 7403 bytes
+
+PHE Decryption Time: 0.302840 seconds
+
+Decrypted PHE Data: [10, 20, 30, 40]
+
+Press Enter to continue...
+HOMOMORPHIC ENCRYPTION
+PHE
+1. PHE Encryption
+2. PHE Decryption
+SHE
+3. SHE Encryption
+4. SHE Decryption
+FHE
+5. FHE Encryption
+6. FHE Decryption
+Other
+7. Run All Three
+8. Exit
+
+Enter your choice: 4
+
+============================================================
+SHE DECRYPTION
+============================================================
+
+Ciphertext File Size: 708604 bytes
+
+SHE Decryption Time: 0.017716 seconds
+
+Decrypted SHE Data: [2, 3, 4, 5]
+
+Press Enter to continue...
+HOMOMORPHIC ENCRYPTION
+PHE
+1. PHE Encryption
+2. PHE Decryption
+SHE
+3. SHE Encryption
+4. SHE Decryption
+FHE
+5. FHE Encryption
+6. FHE Decryption
+Other
+7. Run All Three
+8. Exit
+
+Enter your choice: 6
+
+============================================================
+FHE DECRYPTION
+============================================================
+
+Ciphertext File Size: 2650760 bytes
+
+FHE Decryption Time: 0.023618 seconds
+
+Decrypted FHE Data: [1.9999999995224607, 3.000000000400059, 3.9999999990936073, 4.999999999545858]
+
+Press Enter to continue...
